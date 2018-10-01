@@ -5,10 +5,15 @@
   "dependencies": {
     "@inlet/react-pixi": "^0.2.0",
     "@types/pixi.js": "^4.8.1",
+    "@types/react-bootstrap": "^0.32.14",
+    "bootstrap": "3",
     "pixi.js": "^4.8.2",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts-ts": "3.1.0"
   },
   "scripts": {
