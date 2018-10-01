@@ -8,7 +8,7 @@ class Navigation extends React.Component {
       <Navbar inverse={true} collapseOnSelect={true}>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">React-Bootstrap</a>
+            <a href="#brand">BoardGame</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
