@@ -1,20 +1,17 @@
-import * as React from 'react';
-import './App.css';
-
-import logo from './logo.svg';
+import { Sprite, Stage } from "@inlet/react-pixi";
+import * as React from "react";
+import "./App.css";
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </div>
+      <Stage>
+        <Sprite
+          image="https://s3-us-west-2.amazonaws.com/s.cdpn.io/693612/IaUrttj.png"
+          x={100}
+          y={100}
+        />
+      </Stage>
     );
   }
 }
