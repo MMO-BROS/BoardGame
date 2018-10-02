@@ -1,17 +1,19 @@
 import * as React from "react";
 import "./App.css";
-import Navigation from "./Navigation";
+import Board from "./Board/Board";
+import SiteFrame from "./SiteFrame/SiteFrame";
 
 class Home extends React.Component {
   public render() {
     return (
-      <React.Fragment>
-        <Navigation />
-        <div>
-          <h1>Welcome to our website!</h1>
-          <p>Some text</p>
-        </div>
-      </React.Fragment>
+      <SiteFrame>
+        <header className="content__title">
+          <h1>Main heading</h1>
+          <small>Sub heading contents</small>
+        </header>
+        <Board />
+        <footer className="footer" />
+      </SiteFrame>
     );
   }
 }

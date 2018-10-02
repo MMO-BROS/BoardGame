@@ -1,6 +1,5 @@
 import { Sprite, Stage } from "@inlet/react-pixi";
 import * as React from "react";
-import "./App.css";
 
 class Board extends React.Component {
   public render() {
